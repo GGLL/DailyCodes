@@ -3,7 +3,7 @@ package com.sort;
 public class BubbleSort {
 	public static void bubbleSort(int[] arr) throws Exception{
 		if(arr == null || arr.length == 0){
-			throw new Exception("arguments null");
+			throw new Exception("argument is null");
 		}
 		for(int i = 0;i < arr.length;i++){
 			for(int j=arr.length-1;j>i;j--){

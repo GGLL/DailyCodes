@@ -14,7 +14,8 @@ public class MainTest {
 			//BubbleSort.bubbleSort(cases);
 			//SelectSort.selectSort(cases);
 			//InsertSort.insertSort(cases);
-			QuickSort.quickSort(cases, 0, 6);
+			//QuickSort.quickSort(cases, 0, 6);
+			QuickSort.quickSort_(cases, 0, 6);
 			System.out.println(Arrays.toString(cases));
 		} catch (Exception e) {
 			e.printStackTrace();
